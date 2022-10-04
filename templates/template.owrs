@@ -4,37 +4,36 @@
 # () indicates value to be filled
 ---
 metadata:
-  effective_date:
-  utility_name:
-  bill_frequency:
+  effective_date: YYYY-MM-DD
+  city_name:
 
-rate_structure:
-  {consumer_class}:
-    {rate_component}:
+permit_structure:
+  {housing_type}:
+    {permit_component}:
       ...
     [factors] : ()
-    {rate_component}:
+    {permit_component}:
       ...
-    {rate_component}:
+    {permit_component}:
       ...
-    bill : sum of rate_components
+    fee : sum of rate_components
 
-  {consumer_class}:
-    {rate_component}:
+  {housing_type}:
+    {permit_component}:
       ...
     [factors] : ()
-    {rate_component}:
+    {permit_component}:
       ...
-    {rate_component}:
+    {permit_component}:
       ...
-    bill : sum of rate_components
+    fee : sum of rate_components
 
-  {consumer_class}:
-    {rate_component}:
+  {housing_type}:
+    {permit_component}:
       ...
     [factors] : ()
-    {rate_component}:
+    {permit_component}:
       ...
-    {rate_component}:
+    {permit_component}:
       ...
-    bill : sum of rate_components
+    fee : sum of rate_components

@@ -4,13 +4,12 @@
 # () indicates value to be filled
 ---
 metadata:
-  effective_date: ()
-  utility_name: ()
-  bill_frequency: ()
+  effective_date: YYYY-MM-DD
+  city_name: ()
 
-rate_structure:
-  {consumer_class}:
-    {rate_component}: Tiered #Usually
+permit_structure:
+  {housing_type}:
+    {permit_component}: Tiered #Usually
     tier_starts:
       -(tier_1)
       -(tier_2)
